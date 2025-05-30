@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EcoRewards</string>
+    <string name="numero_2">2</string>
+
+
+    //CANJE
+    <string name="Regresar">Regresar</string>
+    <string name="canje_exitoso_mensaje">Se ha canjeado \'%1$s\'correctamente</string>
+    <string name="Nombres">Nombres</string>
+</resources>
