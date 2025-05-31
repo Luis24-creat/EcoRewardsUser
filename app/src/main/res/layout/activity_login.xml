@@ -43,7 +43,7 @@
         android:id="@+id/txvEcoRewards"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="166dp"
+        android:layout_marginStart="165dp"
         android:layout_marginEnd="167dp"
         android:text="EcoRewards"
         android:textAlignment="center"
@@ -51,9 +51,9 @@
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="118dp" />
+        tools:layout_editor_absoluteY="123dp" />
 
     <Button
         android:id="@+id/btnIniciarSesion2"
@@ -359,7 +359,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="Contraseña"
+        android:text="@string/contrase_a"
         android:textColor="#000000"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -394,7 +394,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginBottom="16dp"
         android:backgroundTint="#50E157"
-        android:text="3"
+        android:text="@string/_3"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textColorLink="#50E157"
@@ -410,7 +410,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="201dp"
-        android:text="Correo electrónico"
+        android:text="@string/correo_electr_nico"
         android:textColor="#000000"
         android:textSize="16sp"
         android:textStyle="bold"

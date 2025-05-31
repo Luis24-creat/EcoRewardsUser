@@ -1,10 +1,21 @@
 <resources>
     <string name="app_name">EcoRewards</string>
-    <string name="numero_2">2</string>
+    <string name="numero_dos">2</string>
 
 
     //CANJE
     <string name="Regresar">Regresar</string>
     <string name="canje_exitoso_mensaje">Se ha canjeado \'%1$s\'correctamente</string>
     <string name="Nombres">Nombres</string>
+    <string name="_3">3</string>
+    //INICIO
+    <string name="todo">TODO</string>
+    <string name="reduce_f_cilmente_la_generaci_n_de_residuos_dom_sticos_y_gana_puntos_para_canjear">Reduce fácilmente la generación de residuos domésticos y gana puntos para canjear.</string>
+    <string name="recicla_tus_residuos">Recicla tus residuos!</string>
+    <string name="inicio">INICIO</string>
+    <string name="iniciar_sesi_n">INICIAR SESIÓN</string>
+    <string name="registrarse">REGISTRARSE</string>
+    //Login
+    <string name="correo_electr_nico">Correo electrónico</string>
+    <string name="contrase_a">Contraseña</string>
 </resources>
