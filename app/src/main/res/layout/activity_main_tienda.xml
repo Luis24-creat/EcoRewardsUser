@@ -42,6 +42,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
         android:backgroundTint="#50E157"
+        android:importantForAccessibility="no"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/premio3"
@@ -56,6 +57,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="13dp"
         android:backgroundTint="#50E157"
+        android:importantForAccessibility="no"
         android:textAlignment="center"
         app:layout_constraintEnd_toStartOf="@+id/premio2"
         app:layout_constraintStart_toStartOf="parent"
@@ -70,6 +72,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="18dp"
         android:backgroundTint="#50E157"
+        android:importantForAccessibility="no"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/premio1"
@@ -84,6 +87,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="57dp"
         android:backgroundTint="#50E157"
+        android:importantForAccessibility="no"
         android:textAlignment="center"
         app:layout_constraintEnd_toStartOf="@+id/premio4"
         app:layout_constraintStart_toStartOf="parent"
@@ -103,7 +107,8 @@
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/premio1" />
+        app:layout_constraintTop_toBottomOf="@+id/premio1"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/btnCanjearGalle"
@@ -120,7 +125,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.75"
         app:layout_constraintStart_toEndOf="@+id/btnCanjearAgua"
-        app:layout_constraintTop_toBottomOf="@+id/premio2" />
+        app:layout_constraintTop_toBottomOf="@+id/premio2"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/btnCanjearPen"
@@ -140,7 +146,8 @@
         app:layout_constraintEnd_toStartOf="@+id/btnCanjearLa"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/premio3"
-        app:layout_constraintVertical_bias="0.106" />
+        app:layout_constraintVertical_bias="0.106"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/btnCanjearLa"
@@ -160,7 +167,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btnCanjearPen"
         app:layout_constraintTop_toBottomOf="@+id/premio4"
-        app:layout_constraintVertical_bias="0.086" />
+        app:layout_constraintVertical_bias="0.086"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/btnRegresar1"
@@ -179,7 +187,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.938" />
+        app:layout_constraintVertical_bias="0.938"
+        tools:ignore="HardcodedText" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -187,6 +196,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginTop="30dp"
+        android:importantForAccessibility="no"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/menu" />

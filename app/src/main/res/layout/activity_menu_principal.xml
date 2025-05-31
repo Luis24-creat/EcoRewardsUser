@@ -61,27 +61,32 @@
 
     <TextView
         android:id="@+id/txvPuntos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="68dp"
+        android:layout_width="97dp"
+        android:layout_height="32dp"
         android:textColor="#40D700"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="284dp" />
+        app:layout_constraintHorizontal_bias="0.853"
+        app:layout_constraintStart_toEndOf="@+id/txvPuntosActuales"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41" />
 
     <ImageButton
         android:id="@+id/imvCanjear"
-        android:layout_width="317dp"
         android:layout_height="164dp"
+        android:layout_width="317dp"
         android:layout_marginStart="62dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="48dp"
         android:layout_marginEnd="63dp"
         android:background="?attr/selectableItemBackgroundBorderless"
         android:contentDescription="Botón para canjear puntos"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txvPuntos"
+        app:layout_constraintTop_toBottomOf="@+id/txvPuntosActuales"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/canjear" />
 
     <Button
@@ -97,8 +102,9 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.468"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imvCanjear"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
